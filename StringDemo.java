@@ -1,5 +1,5 @@
 class StringDemo {
-
+    //String class methods
     public static void stringMethodDemo()
     {
         String s1 = "This is a String Method Demo string1";
@@ -7,7 +7,7 @@ class StringDemo {
         System.out.println("s1 matches to s2?: "+s1.regionMatches(0, s2, 0, s1.length()-1));
         System.out.println("s1 starts with 'T':"+s1.startsWith("T"));
     }
-
+    //StringBuffer Class Methods
     public static void stringBufferDemo(){
         StringBuffer sb = new StringBuffer();
         System.out.println("Available capacity: "+sb.capacity());
