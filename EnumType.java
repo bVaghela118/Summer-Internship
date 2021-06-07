@@ -1,6 +1,6 @@
 
 class EnumType{
-    //Demo1
+    //Demo1 : Use of enumerated type
     static enum Games {CRICKET, TENNIS, CHESS, FOOTBALL,BANDMINTON, BASKETBALL};
 
     //Demo2 : Defining an enumerated type with Attributes and Method
